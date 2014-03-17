@@ -1,5 +1,13 @@
 <?php 
 
+function clearTxt($path){
+    $txt = file_get_contents($path);
+    $txt = preg_replace('/[^\p{L}\p{N}\s]/u', '', $txt);
+    $txt = preg_replace("/\r\n/u",' ',$txt);
+    echo $txt;
+    echo "HUI";
+  }
+
 function check($text='') {
   return $text;
 }

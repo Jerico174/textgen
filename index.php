@@ -9,9 +9,8 @@
 </head>
 <body>
 <div class="content">
-  <pre class="text">
-    <?php echo processTxt("master.txt"); ?>
-  </pre>
+    <?/*php echo processTxt("master.txt"); */?>
+    <?php echo clearTxt("Arsan_Emmanuel_Emmanuel_-_royallib_ru.txt"); ?>
 </div>
 </body>
 </html>
